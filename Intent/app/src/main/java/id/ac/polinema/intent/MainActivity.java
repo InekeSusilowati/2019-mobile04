@@ -19,4 +19,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void handleImplicitIntent(View view) {
+        Intent intent = new Intent(this, ImplicitIntentActivity.class);
+        startActivity(intent);
+    }
 }
